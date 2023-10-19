@@ -1022,7 +1022,8 @@ strong {
   }
 
   .hero-image {
-    min-width: 650px;
+    min-width: 450px;
+    width: 480px;
   }
   
   .hero-title,
