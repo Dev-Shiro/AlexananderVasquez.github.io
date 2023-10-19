@@ -170,6 +170,13 @@ strong {
   object-fit: cover;
 }
 
+.avatar-image-about{
+  border-radius: var(--border-radius-large);
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+
 .avatar-image-large {
   width: 90.4px;
   height: 90.4px;
@@ -617,7 +624,7 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 120px;
+	height: 80px;
 }
 
 .clients-image {
