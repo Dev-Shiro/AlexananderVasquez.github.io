@@ -26,6 +26,23 @@
       scrollTop: totalScroll
       }, 300);
   }
+
+  const $form = Document.querySelector('#form')
+  const $buttonMailTo = Document.querySelector('#trucos')
+
+  $form.addEventListener('submit',handleSubmit)
+
+  function handleSubmit(event){
+    event.preventDefault()
+    const form = new FormData(this)
+    console.log(form.get('name'))
+    $buttonMailto.setAttribute('href', `mailto:avasquezr2804@gmail.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+    $buttonMailTo.click()
+
+
+
+  }
+
 });
     
   })(window.jQuery);
