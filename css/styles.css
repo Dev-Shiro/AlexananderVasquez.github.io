@@ -46,9 +46,7 @@ body {
     font-family: var(--body-font-family); 
 }
 
-#trucos{
-  opacity: 0 !important;
-}
+
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
